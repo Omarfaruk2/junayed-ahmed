@@ -18,26 +18,27 @@ i{
     font-size: 20px;
     margin-top: 15px;
 }
-/* .title:after {
+.line:after {
+    align-items: center;
     content: "";
     position: absolute;
-    height: 20%;
+    height: 30%;
     width: 2px;
-    margin: 15px 0;
+    margin: 6px 9px;
     background: hsla(0,0%,100%,.85);
     z-index: -1;
-} */
+}
 .title p {
     transform: rotate(-90deg);
 }
 .title p{
-    margin-top: 100px;
+    margin-top: 200px;
 }
 .title p {
     padding: 5px 10px;
     font-weight: 900;
     text-transform: uppercase;
-    /* background-color: #1d293a; */
+    background-color: #1d293a;
     transform-origin: 5%;
     border-radius: 4px;
 }
